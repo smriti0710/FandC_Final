@@ -1,0 +1,16 @@
+#animation {
+    height: 0px;
+    overflow: hidden;
+    transition-property: height, opacity, transform;
+    opacity: 0;
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+
+.animate-height{
+    height: 352px !important;
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
